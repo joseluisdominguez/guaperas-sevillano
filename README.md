@@ -1,22 +1,22 @@
 # Overview
 
-Simple fun facts skill for Alexa and Lambda.
+Simple Alexa skill.
 
 # Installation
 
 Install the dependencies
 ```
-npm i
+yarn install
 ```
 
 Start the server
 ```
-npm run proxy
+yarn proxy
 ```
 
 Call an intent
 ```
-npm run getFact
+yarn getFact
 ```
 
 # More Resources at

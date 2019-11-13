@@ -1,0 +1,47 @@
+Arguments: 
+  /Users/joseluisdominguez/.nvm/versions/node/v10.15.3/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js install
+
+PATH: 
+  /Users/joseluisdominguez/google-cloud-sdk/bin:/Users/joseluisdominguez/.nvm/versions/node/v10.15.3/bin:/usr/local/opt/node@6/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Users/joseluisdominguez/Library/Python/2.7/bin:/Users/joseluisdominguez/.cvm
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  10.15.3
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "Guaperas sevillano",
+    "version": "1.0.0",
+    "description": "Alexa skill.",
+    "main": "index.js",
+    "scripts": {
+      "proxy": "bst proxy lambda index.js",
+      "getFact": "bst intend GetNewFactIntent",
+      "deploy": "bst deploy lambda"
+    },
+    "dependencies": {
+      "alexa-sdk": "^1.0.25",
+      "bespoken-tools": "^2.1.2",
+      "dotenv": "^6.2.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: package.json: Name contains illegal characters
+      at new MessageError (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:186:110)
+      at module.exports.exports.default (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:37549:13)
+      at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:52434:51
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:109:13

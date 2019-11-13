@@ -1,7 +1,7 @@
 {
-  "name": "llama-facts",
+  "name": "guaperas-sevillano",
   "version": "1.0.0",
-  "description": "Create a llama facts alexa skill.",
+  "description": "Alexa skill.",
   "main": "index.js",
   "scripts": {
     "proxy": "bst proxy lambda index.js",
@@ -12,9 +12,5 @@
     "alexa-sdk": "^1.0.25",
     "bespoken-tools": "^2.1.2",
     "dotenv": "^6.2.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/bespoken/llama-facts.git"
   }
 }
